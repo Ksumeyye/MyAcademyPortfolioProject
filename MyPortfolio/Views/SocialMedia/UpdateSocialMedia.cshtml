@@ -1,0 +1,35 @@
+﻿@model MyPortfolio.Models.TblSocialMedias
+@{
+    ViewBag.Title = "UpdateSocialMedia";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h3>Sosyal Medya Güncelleme Sayfası</h3>
+
+<form method="post">
+    <input type="hidden" name="SocialMediaId" value="@Model.SocialMediaId" />
+    <label>İsim Soyisim</label>
+    <input type="text" name="NameSurname" value="@Model.NameSurname" class="form-control" />
+    <br />
+    <label>E-mail</label>
+    <input type="text" name="Gmail" value="@Model.Gmail" class="form-control" />
+    <br />
+    <label>Linkedin</label>
+    <input type="text" name="Linkedin" value="@Model.Linkedin" class="form-control" />
+    <br />
+    <label>Github</label>
+    <input type="text" name="Github" value="@Model.Github" class="form-control" />
+    <br />
+    <label>Twitter</label>
+    <input type="text" name="Twitter" value="@Model.Twitter" class="form-control" />
+    <br />
+    <label>İnstagram</label>
+    <input type="text" name="Instagram" value="@Model.Instagram" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Güncelle</button></button>
+
+
+
+

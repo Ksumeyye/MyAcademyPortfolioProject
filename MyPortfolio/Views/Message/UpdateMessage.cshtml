@@ -1,0 +1,30 @@
+﻿@model MyPortfolio.Models.TblMessages
+@{
+    ViewBag.Title = "UpdateMessage";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h3>Mesaj Güncelleme Sayfası</h3>
+
+<form method="post">
+    <input type="hidden" name="MessageId" value="@Model.MessageId" />
+    <label>İsim</label>
+    <input type="text" name="Name" value="@Model.Name" class="form-control" />
+    <br />
+    <label>E-mail</label>
+    <input type="text" name="Email" value="@Model.Email" class="form-control" />
+    <br />
+    <label>Konu</label>
+    <input type="text" name="Subject" value="@Model.Subject" class="form-control" />
+    <br />
+    <label>Mesaj İçeriği</label>
+    <input type="text" name="MessageContent" value="@Model.MessageContent" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Güncelle</button></button>
+
+
+</form>
+
+

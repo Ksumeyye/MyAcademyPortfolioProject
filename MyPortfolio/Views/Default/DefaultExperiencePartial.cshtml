@@ -1,0 +1,44 @@
+﻿@model List<MyPortfolio.Models.TblExperiences>
+
+@{
+    int count = 0;
+    string cssmark1 = "slideInRight";
+    string cssmark2 = "right";
+}
+<div class="experience" id="experience">
+    <div class="container">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>Özgeçmişim</p>
+            <h2>Deneyimlerim</h2>
+        </header>
+        @foreach (var item in Model)
+        {
+            count++;
+            if (count % 2 == 0)
+            {
+                cssmark1 = "slideInRight";
+                cssmark2 = "right";
+            }
+            else
+            {
+                cssmark2 = "left";
+                cssmark1 = "slideInLeft";
+            }
+
+            <div class="timeline">
+
+                <div class="timeline-item @cssmark1 wow @cssmark2" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">@item.StartYear - @item.EndYear</div>
+                        <h2>@item.Title</h2>
+                        <h4>@item.Company , @item.Location</h4>
+
+                        <p>
+                            @item.Description
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

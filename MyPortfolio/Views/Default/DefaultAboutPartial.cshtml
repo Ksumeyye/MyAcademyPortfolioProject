@@ -1,0 +1,29 @@
+﻿@model List<MyPortfolio.Models.TblAbouts>
+@foreach (var item in Model)
+{
+<div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img">
+                    <img src="@item.ImageUrl" alt="Image">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <div class="section-header text-left">
+                        <p>Hakkımda Bilgiler</p>
+                        <h2>@item.Title</h2>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                           @item.Description
+                        </p>
+                    </div>
+                    @Html.Action("DefaultSkillPartial")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}

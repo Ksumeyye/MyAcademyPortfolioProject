@@ -1,0 +1,34 @@
+﻿@model List<MyPortfolio.Models.TblExperiences>
+@{
+    ViewBag.Title = "AddExperience";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h3>Yeni Deneyim Ekleme Sayfası</h3>
+
+<form method="post">
+    <label>Başlangıç Yılı</label>
+    <input type="text" name="StartYear" class="form-control" />
+    <br />
+    <label>Bitiş Yılı</label>
+    <input type="text" name="EndYear" class="form-control" />
+    <br />
+    <label>Başlık Url</label>
+    <input type="text" name="Title" class="form-control" />
+    <br />
+    <label>Açıklama</label>
+    <input type="text" name="Description" class="form-control" />
+    <br />
+    <label>Şirket</label>
+    <input type="text" name="Company" class="form-control" />
+    <br />
+    <label>Konum</label>
+    <input type="text" name="Location" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Kaydet</button></button>
+
+
+</form>
+

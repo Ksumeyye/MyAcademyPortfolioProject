@@ -1,0 +1,52 @@
+﻿@model List<MyPortfolio.Models.TblTeams>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<br />
+<br />
+<h3>Ekip Arkadaşları Sayfası</h3>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>#</th>
+        <th>Resim Url</th>
+        <th>İsim Soyisim</th>
+        <th>Başlık Url</th>
+        <th>Açıklama</th>
+        <th>Twitter Url</th>
+        <th>Linkedin Url</th>
+        <th>İnstagram Url</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@count</td>
+            <td><img src="@item.ImageUrl" style="height:50px;width:50px" /></td>
+            <td>@item.NameSurname</td>
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+            <td><a href="@item.TwitterUrl" target="_blank">Twitter Linki</a></td>
+            <td><a href="@item.LinkedinUrl" target="_blank">Linkedin Linki</a></td>
+            <td><a href="@item.InstagramUrl" target="_blank">İnstagram Linki</a></td>
+            <td><a href="/Team/DeleteTeam/@item.TeamId" class="btn btn-outline-danger ">Sil</a></td>
+            <td><a href="/Team/UpdateTeam/@item.TeamId" class="btn btn-outline-info ">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+
+<br />
+<a href="/Team/AddTeam" class="btn btn-outline-dark">Yeni Ekip Arkadaşı Ekle</a>
+
+
+
+
+
+

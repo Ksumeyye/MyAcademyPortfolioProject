@@ -1,0 +1,28 @@
+﻿@model MyPortfolio.Models.TblContacts
+@{
+    ViewBag.Title = "UpdateContact";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h3>İletişim Bilgileri Güncelleme Sayfası</h3>
+
+<form method="post">
+    <input type="hidden" name="ContactId" value="@Model.ContactId" />
+    <label>İsim Soyisim</label>
+    <input type="text" name="NameSurname" value="@Model.NameSurname" class="form-control" />
+    <label>Adres</label>
+    <input type="text" name="Address" value="@Model.Address" class="form-control" />
+    <br />
+    <label>Telefon</label>
+    <input type="text" name="Phone" value="@Model.Phone" class="form-control" />
+    <br />
+    <label>E-mail</label>
+    <input type="text" name="Email" value="@Model.Email" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Güncelle</button></button>
+
+
+</form>
+

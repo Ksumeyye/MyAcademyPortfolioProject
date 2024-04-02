@@ -1,0 +1,28 @@
+﻿@model List<MyPortfolio.Models.TblMessages>
+@{
+    ViewBag.Title = "AddMessage";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h3>Yeni Mesaj Ekleme Sayfası</h3>
+
+<form method="post">
+    <label>İsim</label>
+    <input type="text" name="Name" class="form-control" />
+    <br />
+    <label>E-mail</label>
+    <input type="text" name="Email" class="form-control" />
+    <br />
+    <label>Konu</label>
+    <input type="text" name="Subject" class="form-control" />
+    <br />
+    <label>Mesaj İçeriği</label>
+    <input type="text" name="MessageContent" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Kaydet</button></button>
+
+
+</form>
+

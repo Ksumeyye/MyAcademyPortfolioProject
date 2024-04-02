@@ -1,0 +1,28 @@
+﻿@model List<MyPortfolio.Models.TblContacts>
+@{
+    ViewBag.Title = "AddContact";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<h3>Yeni İletişim Bilgileri Ekleme Sayfası</h3>
+
+<form method="post">
+    <label>İsim Soyisim</label>
+    <input type="text" name="NameSurname" class="form-control" />
+    <br />
+    <label>Adres</label>
+    <input type="text" name="Address" class="form-control" />
+    <br />
+    <label>Telefon</label>
+    <input type="text" name="Phone" class="form-control" />
+    <br />
+    <label>E-mail</label>
+    <input type="text" name="Email" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Kaydet</button></button>
+
+
+</form>
+

@@ -1,0 +1,25 @@
+﻿@model List<MyPortfolio.Models.TblAdmins>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/View/Shared/_Layout.cshtml";
+}
+<h2>Profil Bilgileri</h2>
+<table class="table">
+    <tr>
+
+        <th>Kullanıcı Bilgileri</th>
+        <th>Şifre</th>
+        <th>Güncelle</th>
+
+    </tr>
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.UserName</td>
+                    <td>@item.Password</td>
+ <td><a href="@Url.Action("UpdateProfile","Profile", new { id = item.AdminId })" class="btn btn-outline-info">Güncelle</a></td>               
+                </tr>
+            }
+
+
+</table>

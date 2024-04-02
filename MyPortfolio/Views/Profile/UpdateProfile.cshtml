@@ -1,0 +1,20 @@
+﻿@model MyPortfolio.Models.TblAdmins
+@{
+    ViewBag.Title = "UpdateProfile";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br/>
+<br/>
+<h2>Profil Bilgileri</h2>
+
+<form method="post">
+    <input type="hidden" name="AdminId" value="@Model.AdminId" />
+    <label>Kullanıcı Adı:</label>
+    <input type="text" name="UserName" value="@Model.UserName" class="form-control" required />
+    <br />
+    <label>Şifre:</label>
+    <input type="text" name="UserName" value="@Model.UserName" class="form-control" required />
+    <br />
+    <button type="submit" class="btn btn-outline-success">Güncelle</button></button>
+</form>
