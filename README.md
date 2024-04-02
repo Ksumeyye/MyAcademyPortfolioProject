@@ -1,4 +1,4 @@
-# MyAcademyPortfolioProject
+ MyAcademyPortfolioProject
  ASP.Net, MVC5, DB First, Entity Framework ve SQL Server Teknolojilerini kullandığım Portfolio Projemdir.<br/>
 Kullanıcı arayüzü ve admin paneii kısımlarından oluşan bu portfolio projesi admin kısmında yapılan her güncellemeyi eş zamanlı olarak kullanıcı arayüzü kısmına yansıtmaktadır. <br/>
 Kullanıcı arayüzü kısmından admin tarafına giriş yapabilir aynı zamanda admin kısmında da çıkış yapabilmektedir.<br/>
@@ -6,29 +6,51 @@ Ayrıca portfolyoyu inceleyen ziyaretçiler kullanıcının sosyal medya hesapla
 
 **Projemden Kesitler:** <br/>
 Kullanıcı Arayüzü Kısmı:
-![Anasayfa1](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/57c8103f-a6f7-434b-a7da-1e0d84366844)
-![Anasayfa2](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/7d15bb63-5657-45f0-8422-0595f30653bd)
-![Anasayfa3](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/70fb8d12-de7f-4a24-9193-501be7203b09)
-![Anasayfa4](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/d56a61df-accb-4a5f-b988-755662cc09da)
-![Anasayfa5](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/8357b92a-de6e-4c89-bf15-9177d5f8f50c)
-![Anasayfa6](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/d1720b62-c8e2-468f-a2b1-429f9ff7a0ab)
-![Anasayfa7](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/eaa2d0c1-b635-4c1f-86a2-98a6c1133a03)
-![Anasayfa8](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/515ca55b-a746-4374-931b-2ff8a49f1c00)
+![Anasayfa1](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/af71a6e1-98b6-4a9a-8306-3eef4be41eb0)
+![Anasayfa2](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/a0cd7ff4-d135-4f58-84b3-ba1682a64472)
+![Anasayfa3](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/8f0e1f58-9ca6-4268-8b33-0221f231d4c4)
+![Anasayfa4](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/05b5bffb-8576-4662-a978-a1952047517c)
+![Anasayfa5](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/ec6e15ff-d36c-4026-9bda-fc073107698c)
+![Anasayfa6](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/2b1eeb21-1d30-4102-9865-133824aabae0)
+![Anasayfa7](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/493041c6-f1e7-44be-bafe-dc53cc252657)
+![Anasayfa8](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/6e463bf3-af95-4519-b0a2-20cb9ae95b42)
 <br/>
-
 Admin Tarafı: <br/>
-![Login png](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/708392c9-6ad4-4b78-a7b7-198bd14cbe3c)
-![Hakkimda](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/3a342719-8725-4c00-a62c-c42ca745606e)
-![Öne Çıkan](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/7be910f5-15b1-4a23-955c-864781e5fd96)
-![Projelerim](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/5e6c3577-f391-47c1-9ddc-9fe4cc4a0aa9)
-![Deneyimlerim Güncelleme](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/47111827-511e-4897-822d-f75cf43447a6)
-![Kategoriler](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/61b787b4-241a-4f35-91ec-191db4e13700)
-![Mesajlarim](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/ecadce0e-ddb1-4b95-b837-56d59dad50bc)
-![Referans](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/1496e675-f769-4e7b-9e7d-dd893f2e5b4c)
-![EkipArk](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/7a6f10cc-a701-4aed-9578-3785d2e0653d)
-![İletişim Bilgileri](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/7b5ba679-54c8-43a6-9d57-fd83a05a28e5)
-![Yetenekler](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/45781a71-f344-4bb2-9c96-6b25202c89d2)
-![SosyalMedya](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/a41d4c01-6f06-41fd-901a-5f4c36a2aa97)
+<br/>
+![Login png](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/2c826c06-2fee-4f04-af71-806b0fe4c79d)
+![Hakkimda](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/f0b63de1-53f2-4ada-b48c-febdde17dfff)
+![Öne Çıkan](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/3cb98d91-9c57-42a8-aadc-762f0dba13f1)
+![Hizmetler](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/803c7f93-1c4c-4cd5-a84b-c7d0a7c94c4a)
+![Deneyimlerim Güncelleme](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/ef97e4d9-ae84-4076-b9f2-f9fdcbba3f15)
+![Projelerim](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/1357482f-0262-42fa-8f26-2e460e18e3d9)
+![Proje Ekleme](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/ab7bffbe-44ee-49b7-ac19-520559637b51)
+![Referans](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/b73fcfd5-bf8f-478d-bc66-c2385d3e9b54)
+![EkipArk](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/b66985e8-975e-417c-904b-d237eade13bb)
+![İletişim Bilgileri](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/34d63fb8-d928-4e66-8454-fa78d9e2dcba)
+![Mesajlarim](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/7a2c7891-66d0-4612-accc-243068c48c8a)
+![Yetenekler](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/691a70f3-cea4-4c98-977a-177cda08ad7b)
+![SosyalMedya](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/78f15b16-1403-4104-8b3b-3d0f7381585b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
