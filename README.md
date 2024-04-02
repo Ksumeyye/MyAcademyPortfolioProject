@@ -1,4 +1,5 @@
- MyAcademyPortfolioProject
+**My Academy Portfolio Project**
+
  ASP.Net, MVC5, DB First, Entity Framework ve SQL Server Teknolojilerini kullandığım Portfolio Projemdir.<br/>
 Kullanıcı arayüzü ve admin paneii kısımlarından oluşan bu portfolio projesi admin kısmında yapılan her güncellemeyi eş zamanlı olarak kullanıcı arayüzü kısmına yansıtmaktadır. <br/>
 Kullanıcı arayüzü kısmından admin tarafına giriş yapabilir aynı zamanda admin kısmında da çıkış yapabilmektedir.<br/>
