@@ -6,6 +6,7 @@ Kullanıcı arayüzü kısmından admin tarafına giriş yapabilir aynı zamanda
 Ayrıca portfolyoyu inceleyen ziyaretçiler kullanıcının sosyal medya hesaplarına kolayca erişim sağlayabilmektedir. <br/>
 
 **Projemden Kesitler:** <br/>
+
 Kullanıcı Arayüzü Kısmı:
 ![Anasayfa1](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/af71a6e1-98b6-4a9a-8306-3eef4be41eb0)
 ![Anasayfa2](https://github.com/Ksumeyye/MyAcademyPortfolioProject/assets/122766319/a0cd7ff4-d135-4f58-84b3-ba1682a64472)
