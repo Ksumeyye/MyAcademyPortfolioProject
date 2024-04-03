@@ -1,9 +1,9 @@
 **My Academy Portfolio Project**
 
- ASP.Net, MVC5, DB First, Entity Framework ve SQL Server Teknolojilerini kullandığım Portfolio Projemdir.<br/>
+ ASP.Net, MVC5, DB First, Entity Framework, SQL Server ve Session Start and Action Filter for Session Timeout teknolojilerini kullandığım Portfolio Projemdir.<br/>
 Kullanıcı arayüzü ve admin paneii kısımlarından oluşan bu portfolio projesi admin kısmında yapılan her güncellemeyi eş zamanlı olarak kullanıcı arayüzü kısmına yansıtmaktadır. <br/>
 Kullanıcı arayüzü kısmından admin tarafına giriş yapabilir aynı zamanda admin kısmında da çıkış yapabilmektedir.<br/>
-Ayrıca portfolyoyu inceleyen ziyaretçiler kullanıcının sosyal medya hesaplarına kolayca erişim sağlayabilmektedir. <br/>
+Ayrıca portfolyoyu inceleyen ziyaretçiler kullanıcının sosyal medya hesaplarına kolayca erişim sağlayabilmektedir ve oturum zaman aşımı yönetimi ile sonlanmaktadır.<br/>
 
 **Projemden Kesitler:** <br/>
 
